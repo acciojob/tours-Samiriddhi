@@ -3,7 +3,7 @@ import TourList from './TourList'; // Import the TourList component
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="main">
       <TourList />
     </div>
   );
