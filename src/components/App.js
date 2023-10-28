@@ -1,9 +1,12 @@
-import React from "react";
+import React from 'react';
+import TourList from './TourList'; // Import the TourList component
 
-const App = () => {
-    return(
-      <main id="main">
-      </main>
-    )
+function App() {
+  return (
+    <div className="App">
+      <TourList />
+    </div>
+  );
 }
+
 export default App;
